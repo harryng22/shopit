@@ -1,0 +1,29 @@
+{
+  "name": "shopit",
+  "version": "1.0.0",
+  "description": "Full ecommerce website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server",
+    "dev": "SET NODE_ENV=DEVELOPMENT & node backend/server",
+    "prod": "SET NODE_ENV=PRODUCTION & node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryng22/shopit.git"
+  },
+  "author": "Hieu Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harryng22/shopit/issues"
+  },
+  "homepage": "https://github.com/harryng22/shopit#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
